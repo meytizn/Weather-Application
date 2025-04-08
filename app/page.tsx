@@ -51,7 +51,7 @@ export default  function Home() {
       <input value={city} onChange={(e)=>setCity(e.target.value)} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  type="text" placeholder="city name ... "/>
     </div>
     <div className="mb-6">
-      <p className="text-red-500 text-xs italic">Please choose a city .</p>
+     
     </div>
     <div className="flex items-center justify-between">
       <button type="submit" className="w-[100%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" >
@@ -61,7 +61,7 @@ export default  function Home() {
     </div>
   </form>
   <p className="text-center text-gray-500 text-xs">
-   <a className="text-white" href="#"> &copy;created by Mahdizamanian</a>
+   <a href="https://mahdizamanian.onrender.com" className="text-white" href="#"> &copy;created by Mahdizamanian</a>
   </p>
 </div>
 
