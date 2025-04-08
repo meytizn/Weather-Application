@@ -1,13 +1,4 @@
 
-## Weather application 
+# Weather application 
+   Live : https://mahdizamanian-weather-application.onrender.com
 
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
