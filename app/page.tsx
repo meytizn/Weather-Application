@@ -61,7 +61,7 @@ export default  function Home() {
     </div>
   </form>
   <p className="text-center text-gray-500 text-xs">
-   <a href="https://mahdizamanian.onrender.com" className="text-white" href="#"> &copy;created by Mahdizamanian</a>
+   <a  className="text-white" href="https://mahdizamanian.onrender.com"> &copy;created by Mahdizamanian</a>
   </p>
 </div>
 
