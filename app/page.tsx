@@ -37,7 +37,9 @@ export default  function Home() {
 {apiData &&  <WeatherCard apiData={apiData}/> }
    
    
-
+<br/>
+<br/>
+<br/>
 
 
     <div className="w-full max-w-xs">
