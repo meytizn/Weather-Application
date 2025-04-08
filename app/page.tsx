@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+
 import React, { useState } from "react";
 import weatherapi from "./utils/weatherapi";
 import WeatherCard, { WeatherData } from "./WeatherCard";
