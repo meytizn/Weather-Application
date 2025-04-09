@@ -30,7 +30,7 @@ export default  function Home() {
     
 
 
-
+<div className="flex flex-col justify-center items-center gap-5 content-center my-5">
     
 
 
@@ -43,7 +43,7 @@ export default  function Home() {
    
 
 
-  <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[95%] md:w-[50%] m-auto fixed bottom-30 right-0 left-0" onSubmit={formhandler}>
+  <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[95%] md:w-[50%] " onSubmit={formhandler}>
     <div className="mb-4">
       <label className="block text-gray-700 text-sm font-bold mb-2" >
       Weather Application
@@ -61,12 +61,12 @@ export default  function Home() {
     </div>
   </form>
   <p className="text-center text-gray-500 text-xs">
-   <a  className="text-white" href="https://mahdizamanian.onrender.com"> &copy;created by Mahdizamanian</a>
+   <a  className="text-white text-[15px]" href="https://mahdizamanian.onrender.com"> &copy;created by Mahdizamanian</a>
   </p>
 
 
 
-   
+  </div>
     </>
   );
 }
